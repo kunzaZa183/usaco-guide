@@ -21,7 +21,7 @@ then we can simply query the range in blocks of size $x - 1$ to find the answer.
 This works because the largest gap will always span at least two blocks.
 
 So what is the lowerbound on the answer? If there are $N$ elements that span a
-range of size $L$, then the lowerbound is $\frac{L + N - 1}{N - 1}$ by the
+range of size $L$, then the lowerbound is $\frac{L + N - 2}{N - 1}$ by the
 pigeonhole principle. (This is a similar idea to the $\alpha = 1/2$ solution for
 IMO 2020 P6).
 
